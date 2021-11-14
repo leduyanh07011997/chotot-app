@@ -1,0 +1,37 @@
+.headerUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .homeImage {
+    width: 146px;
+    padding: 10px 0;
+
+    #img {
+      cursor: pointer;
+    }
+  }
+
+  .navList {
+    display: flex;
+    list-style: none;
+
+    .item {
+      padding: 0 24px;
+      white-space: nowrap;
+      line-height: 24px;
+
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+      a {
+        .icon {
+          width: 24px;
+          height: 24px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
