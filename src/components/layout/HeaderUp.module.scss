@@ -1,14 +1,19 @@
-.headerUp {
+@import '../../styles/variables';
+
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: $headerUp-height;
+  color: $text-color;
 
   .homeImage {
-    width: 146px;
     padding: 10px 0;
 
     #img {
       cursor: pointer;
+      width: 82px;
+      height: 35px;
     }
   }
 
@@ -17,19 +22,30 @@
     list-style: none;
 
     .item {
+      display: block;
+      height: 24px;
       padding: 0 24px;
       white-space: nowrap;
-      line-height: 24px;
+      font-size: 0.875rem;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
 
       &:hover {
         opacity: 0.7;
         cursor: pointer;
       }
+
       a {
+        display: flex;
+        align-items: center;
         .icon {
           width: 24px;
           height: 24px;
           margin-right: 8px;
+        }
+
+        span {
         }
       }
     }

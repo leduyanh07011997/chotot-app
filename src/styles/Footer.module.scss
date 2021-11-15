@@ -1,0 +1,14 @@
+@import './variables';
+
+.container {
+  padding: 0 10rem;
+
+  .introduce {
+    color: #888;
+    font-size: 11px;
+    background-color: #f4f4f4;
+    padding: 0 !important;
+    margin-bottom: 15 px;
+    line-height: 16px;
+  }
+}

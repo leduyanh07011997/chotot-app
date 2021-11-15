@@ -1,0 +1,12 @@
+@import './_variables.scss';
+
+.container {
+  margin-top: $header-height;
+  padding: 0 10rem;
+
+  .content {
+    background-color: $white-color;
+
+    display: block;
+  }
+}

@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import React from 'react';
 import styles from '../styles/Layout.module.css';
+import Content from './Content';
 import Footer from './Footer';
 import Header from './Header';
+
 const Layout = () => {
   return (
     <div className={styles.container}>
@@ -13,7 +15,7 @@ const Layout = () => {
       </Head>
 
       <Header />
-
+      <Content />
       <Footer />
     </div>
   );

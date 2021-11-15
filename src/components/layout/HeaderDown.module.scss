@@ -1,0 +1,70 @@
+@import '../../styles/variables';
+
+.container {
+  display: flex;
+  height: $headerDown-height;
+  align-items: center;
+  justify-content: space-around;
+
+  .search {
+    display: flex;
+    flex: 1;
+    .input {
+      flex: 1;
+      height: 36px;
+      font-size: 15px;
+      border-radius: 4px 0 0 4px;
+      border: none;
+      outline: none;
+      background-color: $white-color;
+      padding-left: 14px;
+    }
+
+    .iconSearch {
+      width: 22px;
+      height: 36px;
+      background-color: $white-color;
+      border-radius: 0 4px 4px 0;
+      align-items: center;
+      padding-right: 4px;
+      cursor: pointer;
+    }
+  }
+
+  .icon {
+    width: 22px;
+    height: 36px;
+    opacity: 0.9;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    margin: 0 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: $text-color;
+
+    .iconLogin {
+      margin-right: 4px;
+    }
+  }
+
+  .post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    color: $white-color;
+    background-color: $dark-orange;
+    border-color: $dark-orange;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+
+    .iconPost {
+      margin-right: 8px;
+    }
+  }
+}
